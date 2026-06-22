@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WsToys | Collections</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<nav class="navbar">
+
+<a href="index.html" class="logo">
+
+<img src="IMAGES/logo.jpg" alt="logo">
+
+</a>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="collections.html">Collections</a></li>
+
+<li><a href="best-sellers.html">Best Sellers</a></li>
+
+<li><a href="faqs.html">FAQs</a></li>
+
+<li><a href="contact.html">Contact Us</a></li>
+
+</ul>
+
+<div class="nav-icons">
+
+<div class="cart-btn">
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<span id="cart-count">0</span>
+
+</div>
+
+<div class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- COLLECTIONS -->
+
+<section class="collection-container">
+
+<!-- FILTER -->
+
+<div class="filter-box">
+
+<h2>Filter Products</h2>
+
+<h3>Price Range</h3>
+
+<input type="number" id="minPrice" placeholder="Minimum Price">
+
+<input type="number" id="maxPrice" placeholder="Maximum Price">
+
+<h3>Category</h3>
+
+<label>
+
+<input type="checkbox" id="boys">
+
+ Boys
+
+</label>
+
+<label>
+
+<input type="checkbox" id="girls">
+
+ Girls
+
+</label>
+
+<button id="applyFilter">
+
+Apply Filter
+
+</button>
+
+</div>
+
+<!-- PRODUCTS -->
+
+<div class="products-grid" id="productsContainer">
+
+<!-- PRODUCT 1 -->
+
+<div class="product-card"
+
+data-price="5316"
+
+data-category="boys">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 1
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.5316
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 2 -->
+
+<div class="product-card"
+
+data-price="3581"
+
+data-category="boys">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 2
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.3581
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 3 -->
+
+<div class="product-card"
+
+data-price="4481"
+
+data-category="girls">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 3
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.4481
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 4 -->
+
+<div class="product-card"
+
+data-price="5890"
+
+data-category="boys">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 4
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.5890
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 5 -->
+
+<div class="product-card"
+
+data-price="6641"
+
+data-category="girls">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 5
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.6641
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 6 -->
+
+<div class="product-card"
+
+data-price="4063"
+
+data-category="boys">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 6
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.4063
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 7 -->
+
+<div class="product-card"
+
+data-price="2487"
+
+data-category="girls">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 7
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.2487
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 8 -->
+
+<div class="product-card"
+
+data-price="8124"
+
+data-category="boys">
+
+<div class="img-box">
+
+IMAGE HERE
+
+</div>
+
+<h3>
+
+Premium Action Toy - 8
+
+</h3>
+
+<p>
+
+High-quality durable toy.
+
+</p>
+
+<div class="price">
+
+<span>
+
+Rs.12000
+
+</span>
+
+<strong>
+
+Rs.8124
+
+</strong>
+
+</div>
+
+<button>
+
+Add To Cart
+
+</button>
+
+</div>
+
+<!-- PRODUCT 9-22 -->
+
+<!-- Isi same structure ko continue karna hai -->
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<img src="IMAGES/logo.jpg" alt="logo">
+
+<p>
+
+The world's finest and safest toys designed to spark children's creativity.
+
+</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Get In Touch</h3>
+
+<p>
+
++92 329 3048299
+
+</p>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+WsToys © 2026
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
