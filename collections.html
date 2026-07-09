@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>WsToys | Collections</title>
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header>
+
+<nav class="navbar">
+
+<a href="index.html" class="logo">
+
+<img src="logo.jpg" alt="logo">
+
+</a>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="collections.html">Collections</a></li>
+
+<li><a href="best-sellers.html">Best Sellers</a></li>
+
+<li><a href="faqs.html">FAQs</a></li>
+
+<li><a href="contact.html">Contact Us</a></li>
+
+</ul>
+
+<div class="nav-icons">
+
+<div class="cart-btn">
+
+<i class="fa-solid fa-cart-shopping"></i>
+
+<span id="cart-count">0</span>
+
+</div>
+
+<div class="menu-btn">
+
+<i class="fa-solid fa-bars"></i>
+
+</div>
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- COLLECTIONS -->
+
+<section class="collection-container">
+
+<!-- FILTER BUTTON -->
+
+<button class="filter-toggle-btn" onclick="toggleFilter()">
+
+<i class="fa-solid fa-sliders-h"></i> Filter Products
+
+</button>
+
+<!-- FILTER POPUP -->
+
+<div class="filter-popup" id="filterPopup">
+
+<div class="filter-box">
+
+<button class="close-filter" onclick="toggleFilter()"><i class="fa-solid fa-xmark"></i></button>
+
+<h2>Filter Products</h2>
+
+<h3>Price Range</h3>
+
+<input type="number" id="minPrice" placeholder="Minimum Price">
+
+<input type="number" id="maxPrice" placeholder="Maximum Price">
+
+<h3>Category</h3>
+
+<label>
+
+<input type="checkbox" id="boys">
+
+ Boys
+
+</label>
+
+<label>
+
+<input type="checkbox" id="girls">
+
+ Girls
+
+</label>
+
+<button id="applyFilter">
+
+Apply Filter
+
+</button>
+
+</div>
+
+</div>
+
+<!-- PRODUCTS -->
+
+<div class="products-grid" id="productsContainer">
+<div class="product-card" data-id="1" data-price="1995" data-category="girls">
+    <div class="img-box">
+        <div class="badge">Sale!</div>
+        <img src="logo.jpg" alt="Labubu Keychain">
+    </div>
+    <h3>Labubu Keychain</h3>
+    <p>Blind Box</p>
+    <div class="price">
+        <span>Rs.4,895</span>
+        <strong>Rs.1995</strong>
+    </div>
+    <button>Add To Cart</button>
+</div>
+<div class="product-card" data-id="2" data-price="5316" data-category="boys">
+    <div class="img-box">
+        
+        <img src="logo.jpg" alt="Premium Action Toy">
+    </div>
+    <h3>Premium Action Toy</h3>
+    <p>Durable toy</p>
+    <div class="price">
+        <span>Rs.12,000</span>
+        <strong>Rs.5316</strong>
+    </div>
+    <button>Add To Cart</button>
+</div>
+
+</div>
+
+</section>
+
+<!-- SLIDING CART -->
+
+<div class="cart-sidebar">
+
+<div class="cart-header">
+
+<h3>Your Cart</h3>
+
+<i class="fa-solid fa-xmark close-cart"></i>
+
+</div>
+
+<div class="cart-items">
+
+</div>
+
+<div class="cart-footer">
+
+<h4>
+
+Total:
+
+<span>Rs.0</span>
+
+</h4>
+
+<button class="checkout-btn">
+
+Checkout WhatsApp
+
+</button>
+
+</div>
+
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-box">
+
+<img src="logo.jpg" alt="logo">
+
+<p>
+
+The world's finest and safest toys designed to spark children's creativity.
+
+</p>
+
+</div>
+
+<div class="footer-box">
+
+<h3>Get In Touch</h3>
+
+<p>
+
++92 329 3048299
+
+</p>
+
+</div>
+
+</div>
+
+<div class="copyright">
+
+WsToys © 2026
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

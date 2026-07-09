@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Labubu Keychain",
+        "category": "girls",
+        "price": 1995,
+        "old_price": 4895,
+        "description": "Blind Box",
+        "badge": "Sale!",
+        "image": "logo.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Premium Action Toy",
+        "category": "boys",
+        "price": 5316,
+        "old_price": 12000,
+        "description": "Durable toy",
+        "badge": "",
+        "image": "logo.jpg"
+    }
+]
